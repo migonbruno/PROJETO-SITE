@@ -1,0 +1,27 @@
+.noticias {
+    
+}
+.noticias h3 {
+    font-size: 26px;
+    color: steelblue;
+    margin-left: 1rem;
+    padding-top: 1rem;
+    margin-bottom: .1rem;
+    text-align: left;
+}
+.noticias:nth-child(odd) {
+    background: lightcyan;
+    border-radius: 1rem;
+}
+.noticias:nth-child(even) {
+    background: lightgray;
+    border-radius: 1rem;
+}
+.noticias p {
+    margin-left: 1rem;
+    padding-bottom: 1rem;
+}
+.noticias small {
+    margin-left: 2rem;
+    padding-top: 5px;
+}

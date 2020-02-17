@@ -1,1 +1,17 @@
 /* CSS da index */
+.welcomehome h1{
+    text-align: center;
+    font-size: 34px;
+    font-style: italic;
+}
+.welcomehome h2 {
+    text-align: center;
+    font-size: 18px;
+}
+.begin {
+    padding-top: 2rem;
+}
+.begin #brasao {
+    width: 250px;
+    padding-top: 2rem;
+} 

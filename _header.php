@@ -2,9 +2,9 @@
 
 // Tratamento do título da página
 if ($titulo == "") {
-    $titulo = "Cursed News - Tudo sobre tecnologia";
+    $titulo = "Migon News - Tudo sobre tecnologia";
 } else {
-    $titulo = "{$titulo} - Cursed News";
+    $titulo = "{$titulo} - Migon News";
 }
 
 // Tratamento do CSS da página
@@ -39,8 +39,8 @@ if ($js != "") {
 <div class="wrap">
 
     <header class="header">
-        <a href="/" title="Sem Nome - O melhor de todos"><img src="img/logo03.png" alt="Cursed News"></a>
-        <h1>Cursed News<small>Tudo sobre tecnologia.</small></h1>
+        <a href="/" title="Migon News - Tudo sobre tecnologia"><img src="img/logo03.png" alt="Migon News"></a>
+        <h1>Migon News<small>Tudo sobre tecnologia.</small></h1>
     </header>
 
     <nav class="nav">

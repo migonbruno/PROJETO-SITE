@@ -5,7 +5,7 @@
 </main>
 
 <footer class="footer">
-    <a href="/" title="Página inicial"><i class="fas fa-fw fa-home"></i></a>
+    <a href="/" title="Página inicial"><i class="fas fa-fw fa-flask"></i></a>
     <div>
         <span title="&copy; Copyright 2020 Bruno Migon"><i class="far fa-copyright"></i> 2020 Bruno Migon</span title="&copy; Copyright 2020 Bruno Migon">
         <div>

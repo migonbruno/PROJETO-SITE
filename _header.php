@@ -39,7 +39,7 @@ if ($js != "") {
 <div class="wrap">
 
     <nav class="nav">
-    <a <?php echo ( $menu == 'index' ) ? 'class="active"' : null ?>  href="index.php"><span title="Home"><i class="fas fa-flask"></i></span></a>
+    <a <?php echo ( $menu == 'index' ) ? 'class="active"' : null ?>  href="index.php"><span title="Home"><i class="fas fa-fw fa-flask"></i></span></a>
 
         <div id="menulinks">
             <a <?php echo ( $menu == 'artigos' ) ? 'class="active"' : null ?> href="/artigos.php"><i class="fas fa-fw fa-pen-nib"></i> Artigos</a>

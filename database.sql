@@ -107,14 +107,14 @@ VALUES
 
 -- Populando a tabela "categorias"
 INSERT INTO categorias (categoria) VALUES
-('Categoria 1'), 
-('Categoria 2'),
-('Categoria 3'),
-('Categoria 4'),
-('Categoria 5'),
-('Categoria 6'),
-('Categoria 7'),
-('Categoria 8');
+('PHP'), 
+('JavaScript'),
+('Python'),
+('HTML 5'),
+('CSS3'),
+('Banco de dados'),
+('Front-end'),
+('Back-end');
 
 -- Populando a tabela "artigos"
 INSERT INTO artigos (
@@ -127,41 +127,41 @@ INSERT INTO artigos (
 ) VALUES 
 (
     '2020-02-03 11:44:00',
-    'https://picsum.photos/201',
-    'Primeiro artigo do meu site',
-    'Veja como vai aparecer no site o artigo do meu site.',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR15J3uwAlnMx6kXhahhxI9A-LCbDfpUDTqE0xYL2dMC2KpXU9l',
+    'Ajuda com integração do node.js com o MySQL',
+    'Vivamus pellentesque dapibus mi, ut venenatis mi euismod vitae. Suspendisse vel bibendum neque. Morbi ullamcorper dolor sit amet ex bibendum tempor.',
     '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas hendrerit elit nec est varius tristique.</p><p>Nunc ante tortor, facilisis vel diam lobortis, consequat aliquam lorem.</p><p>Fusce dolor orci, fringilla eget mauris ac, lobortis imperdiet odio. </p>',
     '1'
 ),
 (
     '2020-02-05 08:12:27',
-    'https://picsum.photos/202',
-    'Segundo artigo do meu site',
-    'Veja como vai aparecer no site, mais este artigo do meu site.',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQt__KrD-2K34p15Ts4WQbm_MupoGmVdz0EGGfgv2bZ27pClmaI',
+    'Deixando o seu site mais seguro.',
+    'Vivamus pellentesque dapibus mi, ut venenatis mi euismod vitae. Suspendisse vel bibendum neque. Morbi ullamcorper dolor sit amet ex bibendum tempor.',
     '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas hendrerit elit nec est varius tristique.</p><p>Nunc ante tortor, facilisis vel diam lobortis, consequat aliquam lorem.</p><p>Fusce dolor orci, fringilla eget mauris ac, lobortis imperdiet odio. </p>',
     '3'
 ),
 (
     '2020-02-05 14:30:00',
-    'https://picsum.photos/199',
-    'Terceiro artigo publicado',
-    'Mais um artigo, mais um conteúdo. Veja como esse ficará melhor.',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_ueIzD4DTdthxFdYxvtExK9wo00xE5o7ax5b1SCHmBJomm65U&s',
+    'Como posso fazer para o meu site ser totalmente responsivel.',
+    'Vivamus pellentesque dapibus mi, ut venenatis mi euismod vitae. Suspendisse vel bibendum neque. Morbi ullamcorper dolor sit amet ex bibendum tempor.',
     '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas hendrerit elit nec est varius tristique.</p><p>Nunc ante tortor, facilisis vel diam lobortis, consequat aliquam lorem.</p><p>Fusce dolor orci, fringilla eget mauris ac, lobortis imperdiet odio. </p>',
     '2'
 ),
 (
     '2020-02-05 14:31:00',
-    'https://picsum.photos/198',
-    'Artigo agendado para um futuro próximo.',
-    'Como será que o PHP vai saber que este artigo é agendado para o futuro?',
+    'https://miro.medium.com/max/815/1*zB5JlbMSA26pklzNRAmSEg.png',
+    'Cuidados com SQL Injection.',
+    'Vivamus pellentesque dapibus mi, ut venenatis mi euismod vitae. Suspendisse vel bibendum neque. Morbi ullamcorper dolor sit amet ex bibendum tempor.Vivamus pellentesque dapibus mi, ut venenatis mi euismod vitae. Suspendisse vel bibendum neque. Morbi ullamcorper dolor sit amet ex bibendum tempor.',
     '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas hendrerit elit nec est varius tristique.</p><p>Nunc ante tortor, facilisis vel diam lobortis, consequat aliquam lorem.</p><p>Fusce dolor orci, fringilla eget mauris ac, lobortis imperdiet odio. </p>',
     '1'
 ),
 (
     '2020-02-11 18:25:00',
-    'https://picsum.photos/200',
-    'Artigo mais novo que os outros.',
-    'Este artigo é muito novo e você pode consultá-lo.',
+    'https://images-na.ssl-images-amazon.com/images/I/51lpm9SpsJL.png',
+    'Utilizando biblioteca discord no Python.',
+    'Vivamus pellentesque dapibus mi, ut venenatis mi euismod vitae. Suspendisse vel bibendum neque. Morbi ullamcorper dolor sit amet ex bibendum tempor.',
     '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas hendrerit elit nec est varius tristique.</p><p>Nunc ante tortor, facilisis vel diam lobortis, consequat aliquam lorem.</p><p>Fusce dolor orci, fringilla eget mauris ac, lobortis imperdiet odio. </p>',
     '3'
 );

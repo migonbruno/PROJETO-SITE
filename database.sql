@@ -184,7 +184,7 @@ VALUES
     (5, 3)
 ;
 
--- Criando a tabela "noticias
+-- Criando a tabela "noticias"
 CREATE TABLE noticias (
     id_noticia INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
     data_noticia TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
@@ -236,3 +236,11 @@ VALUES
         'Sed rutrum elit id orci porttitor gravida. Nam in finibus sem. Maecenas sagittis molestie mi, vitae mattis nibh vestibulum eget.', '3'
     )
 ;
+
+-- Criando tabela "CadastroADM"
+CREATE TABLE cadastroadm (
+    id_adm INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    nome_adm VARCHAR(150) NOT NULL,
+    email_adm VARCHAR(150) NOT NULL,
+    senha_adm VARCHAR(150) NOT NULL
+);

@@ -189,9 +189,9 @@ require ('_header.php');
         <p>Você também pode falar conosco pelas redes sociais:</p>
 
         <ul>
-            <li><a href="http://facebook.com/" target="_blank"><i class="fab fa-fw fa-facebook-square"></i> Facebook</a></li>
+            <li><a href="https://github.com/migonbruno/" target="_blank"><i class="fab fa-fw fa-github-square"></i> GitHub</a></li>
+            <li><a href="https://discordapp.com/" target="_blank"><i class="fab fa-fw fa-discord"></i> Discord</a></li>
             <li><a href="http://youtube.com/" target="_blank"><i class="fab fa-fw fa-youtube-square"></i> Youtube</a></li>
-            <li><a href="http://linkedin.com/" target="_blank"><i class="fab fa-fw fa-linkedin"></i> Linkedin</a></li>
             <li><a href="http://twitter.com/" target="_blank"><i class="fab fa-fw fa-twitter-square"></i> Twitter</a></li>
             <li><a href="http://instagram.com/" target="_blank"><i class="fab fa-fw fa-instagram"></i> Instagram</a></li>
         </ul>

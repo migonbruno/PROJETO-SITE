@@ -51,47 +51,6 @@ TEXTO;
 
 endwhile;
 
-// Calcular idade do autor
-$dataNascimento = $noti['nascimento'];
-$date = new DateTime($dataNascimento);
-$interval = $date->diff( new DateTime( date('Y-m-d') ) );
-$idadeautor = $interval->format( '%Y anos' );
-
-// Modal com dados do autor
-$mautor = <<<TEXTO
-
-<div id="modal" class="modal">
-
-    <a href="#fechar" class="fechamodal"><i class="fas fa-fw fa-times"></i></a>
-    
-    <div class="wrapmodal">
-
-        <div class="autor">
-            <div class="autortit">
-                <span>Sobre o autor</span>
-                <a href="#fechar" class="fechamodal"><i class="fas fa-fw fa-times"></i></a>
-            </div>
-            <div class="autorid">
-                <img src="{$noti['thumb_autor']}" alt="{$noti['nome_tela']}">
-                <h4>{$noti['nome_tela']}</h4>
-                <small>{$noti['nome_autor']}</small>
-                <div>{$idadeautor}</div>
-            </div>
-            <div class="curriculo">{$noti['curriculo']}</div>
-            <ul>
-                <li>Site: <a href="{$noti['site']}" target="_blank">{$noti['site']}</a></li>
-                <li>E-mail: <a href="mailto:{$noti['email']}" target="_blank">{$noti['email']}</a></li>
-                <li>Telefone(s): {$noti['telefone']}</li>
-            </ul>
-            <div class="autorft">
-                <a href="#fechar" class="fechamodal">Fechar</a>
-            </div>
-        </div>
-    </div>
-
-</div>
-
-TEXTO;
 
 
 /************************************************/

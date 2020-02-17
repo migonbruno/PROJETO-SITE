@@ -39,9 +39,7 @@ require ('_header.php');
             no qual os membros cadastrados aqui no nosso site terão em primeira mão todas as informações sobre o desenvolvimento e andamento do projeto.</p>
 
             <p>Aqui você poderá expor suas ideias e contribuir com projetos de outros membros, crie artigos, compartilhe notícias e muito mais...</p>
-
-            
-        </h2>
+        <center><img src="img/logo05.png" alt="Sublogo">
 
     </div>  
 

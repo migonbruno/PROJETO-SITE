@@ -38,13 +38,9 @@ if ($js != "") {
 
 <div class="wrap">
 
-    <header class="header">
-        <a href="/" title="Cursed Lab. - Tudo sobre tecnologia"><img src="img/logo03.png" alt="Cursed Lab."></a>
-        <h1>Cursed Lab.<small>Tudo sobre tecnologia.</small></h1>
-    </header>
-
     <nav class="nav">
-        <a <?php echo ( $menu == 'index' ) ? 'class="active"' : null ?>  href="/"><i class="fas fa-fw fa-home"></i></a>
+    <a <?php echo ( $menu == 'index' ) ? 'class="active"' : null ?>  href="index.php"><span title="Home"><i class="fas fa-flask"></i></span></a>
+
         <div id="menulinks">
             <a <?php echo ( $menu == 'artigos' ) ? 'class="active"' : null ?> href="/artigos.php"><i class="fas fa-fw fa-pen-nib"></i> Artigos</a>
             <a <?php echo ( $menu == 'noticias' ) ? 'class="active"' : null ?> href="/noticias.php"><i class="fas fa-fw fa-newspaper"></i> Notícias</a>
@@ -55,7 +51,6 @@ if ($js != "") {
         </div>
         <a href="#menu" id="menu"><i class="fas fa-fw fa-bars"></i></a>             
     </nav>
-
     <main class="main">
 <!-- CONTEÚDO DA PÁGINA -->
         

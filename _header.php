@@ -28,7 +28,7 @@ if ($js != "") {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><?php echo $titulo ?></title>
-    <link rel="shortcut icon" href="/img/logo03.png">
+    <link rel="shortcut icon" href="/img/logo02.png">
     <link rel="stylesheet" href="/css/global.css">
     <link rel="stylesheet" href="/css/all.min.css">
     <?php echo $css ?>

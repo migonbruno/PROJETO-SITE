@@ -1,17 +1,33 @@
 /* CSS da index */
-.welcomehome h1{
+.welcomehome {
+    font-family: 'Tomorrow', sans-serif;   
+}
+.welcomehome h1 {
     text-align: center;
     font-size: 34px;
-    font-style: italic;
-}
+}    
 .welcomehome h2 {
     text-align: center;
     font-size: 18px;
 }
-.begin {
-    padding-top: 2rem;
+.login {
+    padding-top: 1rem;
+    text-align: center;
+    
 }
-.begin #brasao {
-    width: 250px;
-    padding-top: 2rem;
-} 
+ input {
+    font-family: 'Tomorrow', sans-serif;
+    outline: none;             /* REMOVE AS BORDINHAS QUANDO CLICA NO INPUT */
+    border: groove darkcyan;
+    border-radius: .8rem;
+    width: 35%;
+    height: 3rem;
+    padding-left: .5rem;
+}
+.butaum {
+    width: 20%;
+    height: 2rem;
+    text-align: center;
+    background-color: rgba(0, 139, 139, 0.719);
+    color: whitesmoke;
+}

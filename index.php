@@ -30,19 +30,30 @@ require ('_header.php');
 ?>
 <div class="welcomehome">
     <h1>SEJA BEM-VINDO AO CURSED LAB.</h1>
-    <h2>A maior comunidade sobre tecnologia.</h2>
+    <br>    
+    <h2>Faça seu cadastro e junte-se a nossa comunidade.</h2>
     <br>
     <hr>
 </div>
 
-    <div class="begin">
-        <p>Junte-se a nós, criando o seu <a href="login.php">cadastro</a> e compartilhando o seu conhecimento.</p>
-        <p>Clicando na seção <a href="sobre.php">Sobre</a> você irá saber qual é nossa missão e objetivo.</p>
-        <br>
-        <hr>
-        <center><img id="brasao" src="img/logo02.png" alt="Brasão">
-    </div>
-
+<div class="login">
+    <form method="post" action="valida.php">
+        <p>
+            <input type="email" name="email" id="email" placeholder="Email" maxlength="50" /> 
+        </p>
+        <p>
+            <input type="password" name="senha" id="senha" placeholder="Senha" maxlength="50" />
+        </p>
+        <p>
+            <input class="butaum" type="submit" value="Entrar" />
+        </p>
+        <p>
+            <input class="butaum" type="submit" value="Cadastrar" />
+        </p>
+    </form>
+</div>
+<center><img src="img/logo05.png" alt=""></center>
+<hr>
 <?php
 
 // Inclui o rodapé do template

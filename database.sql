@@ -238,7 +238,7 @@ VALUES
 ;
 
 -- Criando tabela "CadastroADM"
-CREATE TABLE cadastroadm (
+ CREATE TABLE cadastroadm (
     id_adm INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
     nome_adm VARCHAR(150) NOT NULL,
     email_adm VARCHAR(150) NOT NULL,

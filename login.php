@@ -13,7 +13,7 @@ $menu = "";
 
 // Aponta para o CSS "desta" página. Ex.: /css/contatos.css
 // Deixe vazio para não usar CSS adicional nesta página
-$css = "";
+$css = "/css/login.css";
 
 // Aponta para o JavaScript "desta" página. Ex.: /js/contatos.js
 // Deixe vazio para não usar JavaScript adicional nesta página

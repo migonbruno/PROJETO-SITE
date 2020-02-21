@@ -237,10 +237,12 @@ VALUES
     )
 ;
 
--- Criando tabela "CadastroADM"
- CREATE TABLE cadastroadm (
-    id_adm INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
-    nome_adm VARCHAR(150) NOT NULL,
-    email_adm VARCHAR(150) NOT NULL,
-    senha_adm VARCHAR(150) NOT NULL
+-- Criando tabela "Cadastro Usuario"
+ CREATE TABLE cadusuario (
+    email_user VARCHAR(50) PRIMARY KEY NOT NULL,
+    nome_user VARCHAR(150) NOT NULL,
+    senha_user VARCHAR(30) NOT NULL,
+    thumb_user VARCHAR(255),
+    bio_user TEXT,
+    site_user VARCHAR(255)
 );

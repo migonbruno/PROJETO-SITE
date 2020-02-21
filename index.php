@@ -8,13 +8,12 @@ require ('_config.php');
 /*********************************************/
 
 
-
 /************************************************/
 /*  SEUS CÓDIGOS PHP DESTA PÁGINA TERMINAM AQUI */
 /************************************************/
 
 // Define o título "desta" página
-$titulo = "Seja Bem-vindo";
+$titulo = "";
 
 // Aponta para o CSS "desta" página. Ex.: /css/contatos.css
 // Deixe vazio para não usar CSS adicional nesta página
@@ -48,7 +47,7 @@ require ('_header.php');
             <input class="butaum" type="submit" value="Entrar" />
         </p>
         <p>
-            <input class="butaum" type="submit" value="Cadastrar" />
+        <input class="butaum" type="submit" value="Cadastrar" />
         </p>
     </form>
 </div>

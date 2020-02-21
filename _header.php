@@ -1,8 +1,8 @@
 <?php
-
+session_start(); 
 // Tratamento do título da página
 if ($titulo == "") {
-    $titulo = "Cursed Lab. - Tudo sobre tecnologia";
+    $titulo = "Cursed Lab. - Comunidade de Desenvolvedores";
 } else {
     $titulo = "{$titulo} - Cursed Lab.";
 }
@@ -48,7 +48,7 @@ if ($js != "") {
             <a <?php echo ( $menu == 'blog' ) ? 'class="active"' : null ?> href="/blog.php"><i class="fas fa-fw fa-newspaper"></i> Blog</a>
             <a <?php echo ( $menu == 'contatos' ) ? 'class="active"' : null ?> href="/contatos.php"><i class="fas fa-fw fa-mail-bulk"></i> Contatos</a>
             <a <?php echo ( $menu == 'sobre' ) ? 'class="active"' : null ?> href="/sobre.php"><i class="fas fa-fw fa-info-circle"></i> Sobre</a>
-            <a <?php echo ( $menu == 'login' ) ? 'class="active"' : null ?> href="/login.php"><i class="fas fa-fw fa-user"></i> Login</a>
+            <a <?php echo ( $menu == 'menu' ) ? 'class="active"' : null ?> href="/menu.php"><i class="fas fa-fw fa-user"></i> Menu</a>
             <a <?php echo ( $menu == 'procurar' ) ? 'class="active"' : null ?> href="/procurar.php" id="procurar" title="Procurar no site"><i class="fas fa-fw fa-search"></i><span> Procurar</span></a>
         </div>
         <a href="#menu" id="menu"><i class="fas fa-fw fa-bars"></i></a>             

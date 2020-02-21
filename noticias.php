@@ -62,7 +62,7 @@ endwhile;
 require ('_header.php');
 
 echo($noticias);
-echo($mautor);
+
 ?>
 
 <?php

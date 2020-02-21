@@ -16,7 +16,6 @@
     
 }
  input {
-    font-family: 'Tomorrow', sans-serif;
     outline: none;             /* REMOVE AS BORDINHAS QUANDO CLICA NO INPUT */
     border: groove darkcyan;
     border-radius: .8rem;
